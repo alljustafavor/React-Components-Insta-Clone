@@ -10,7 +10,6 @@ const LikeSection = props => {
   // 🔥 Make sure the parent of LikeSection is passing the right props!
   const { likePost, post } = props;
   const [isLiked, setIsLiked] = useState(false);
-  console.log(post);
   return (
     <div>
       <div
